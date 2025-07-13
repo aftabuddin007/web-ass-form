@@ -7,6 +7,12 @@
 body{
     background-color: aliceblue;
 }
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
 .first{
     font-size: 16px;
     font-weight: 600;
@@ -65,10 +71,11 @@ body{
    border: 1px solid white;
 }
 fieldset{
-    height: 700px;
+    height: 750px;
     width: 700px;
     padding: 0 80px;
     border: 10px solid blue;
+    margin: 50px auto;
     
     
    
