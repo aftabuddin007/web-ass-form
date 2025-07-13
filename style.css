@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.first{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(7, 7, 7, 0.772);
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pass-birth{
+    display: flex;
+     justify-content: space-between;
+    margin-top: 30px;gap: 10px;
+    
+}
+.gen-country{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#skills{
+    margin-bottom: 30px;
+}
+#comment{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(184, 179, 179, 0.76);
+}
+#condition{
+    margin-bottom: 30px;
+}
+.reset{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    gap: 10px;
+}
+.meset1{
+   height: 40px;
+   width: 100px;
+   border-radius: 10px ;
+   background-color: rgb(215, 212, 212);
+   border: 1px solid white;
+
+}
+.register{
+   height: 40px;
+   width: 100px;
+   border-radius: 10px ;
+   background-color: rgb(41, 74, 197); 
+   color: aliceblue;
+   border: 1px solid white;
+}
+fieldset{
+    height: 700px;
+    width: 700px;
+    padding: 0 80px;
+    border: 10px solid blue;
+    
+    
+   
+}
+form{
+   margin-top: 20px;  
+}
+.blank-box{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 300px;
+    border: 1px solid rgba(184, 179, 179, 0.76);
+
+
+}
+.ema{
+      border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    border: 1px solid rgba(184, 179, 179, 0.76);
+    width: 100%;
+    
+}
+.cynt{
+    border-radius: 5px;
+    
+    padding: 7px;
+    width: 300px;
+    border: 1px solid rgba(184, 179, 179, 0.76);
+}
